@@ -4,7 +4,7 @@
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
 }
-body h1{
+body h1 {
   font-size: 1.7rem;
   opacity: 0.7;
   text-align: center;
@@ -12,8 +12,8 @@ body h1{
   margin: 0.7em auto;
 }
 
-body p{
-  font-size: 0.90rem;
+body p {
+  font-size: 0.9rem;
   opacity: 0.5;
   text-align: center;
   font-weight: 600;
@@ -38,12 +38,11 @@ header img {
   width: 7em;
 }
 
-
 header p {
   margin-bottom: 4em;
 }
 
- button {
+button {
   display: block;
   margin: 1.5em auto;
   width: 90%;
@@ -58,288 +57,283 @@ header p {
   background-color: hsl(171, 66%, 44%);
 }
 
- .blue {
+.blue {
   background-color: hsl(233, 100%, 69%);
 }
 
-.main-features{
-    margin: 8em  auto;
-    width: 90%;
-    text-align: center;
-    font-weight: 600;
+.main-features {
+  margin: 8em auto;
+  width: 90%;
+  text-align: center;
+  font-weight: 600;
 }
 
-
-.snippets p{
+.snippets p {
   width: 95%;
-  }
+}
 
-.sub-features{
+.sub-features {
   margin-top: 4em;
   text-align: center;
   font-weight: 600;
-  
 }
 
-.sub-features img{
+.sub-features img {
   width: 90%;
 }
 
-
-.sub-features-tab div{
+.sub-features-tab div {
   margin: 2.5em auto;
   width: 90%;
 }
 
-.access-clipboard{
-  margin: 8em  auto;
+.access-clipboard {
+  margin: 8em auto;
   width: 90%;
 }
 
-.access-clipboard img{
+.access-clipboard img {
   display: block;
   width: 100%;
   margin: 3em auto;
 }
 
-.container-supercharge{
+.container-supercharge {
   width: 90%;
   margin: auto;
 }
 
-.sub-supercharge-features{
+.sub-supercharge-features {
   margin: 5em auto;
 }
 
-.sub-supercharge-features img{
+.sub-supercharge-features img {
   display: block;
   width: 15%;
   margin: auto;
 }
 
-.clients{
+.clients {
   margin-top: 8em;
 }
 
-.clients img{
+.clients img {
   display: block;
   margin: 4em auto;
 }
 
-.download{
+.download {
   width: 90%;
   margin: auto;
 }
 
-footer{
-  background-color:rgb(247, 250, 246)
+footer {
+  background-color: rgb(247, 250, 246);
 }
 
-.useful-links{
+.useful-links {
   width: 90%;
   margin: auto;
-
 }
 
-.useful-links img{
+.useful-links img {
   display: block;
   margin: 3em auto;
   width: 18%;
   padding-top: 3em;
 }
 
-.useful-links h2{
+.useful-links h2 {
   font-size: 1.3em;
   text-align: center;
   line-height: 2.3em;
   font-weight: 600;
   opacity: 0.5;
 }
-.social-icon{
-  margin:0 auto;
+.social-icon {
+  margin: 0 auto;
   text-align: center;
 }
 
-.social-icon i{
+.social-icon i {
   text-align: center;
-  margin: 2em 0.5em; 
+  margin: 2em 0.5em;
   opacity: 0.5;
   font-size: 1.8rem;
 }
 /* Media Queries */
-@media only screen and (min-width:768px){
-  header{
+@media only screen and (min-width: 768px) {
+  header {
     background-image: url("../images/bg-header-desktop.png");
   }
-  
-  .sub-header{
+
+  .sub-header {
     width: 65%;
   }
 
-  header h1{
+  header h1 {
     font-size: 2.8rem;
   }
 
-  header p{
+  header p {
     font-size: 1.4rem;
     font-weight: 400;
   }
-  header p{
+  header p {
     margin-bottom: 0.5em;
   }
 
-.main-button-width{
-  min-width: 380px;
-}
-
-  .download-btn{
-   display: flex;
-width: 55%;
-margin: auto;
+  .main-button-width {
+    min-width: 380px;
   }
 
-  button{
+  .download-btn {
+    display: flex;
+    width: 55%;
+    margin: auto;
+  }
+
+  button {
     width: 45%;
     height: 3em;
   }
 
-  .snippets{
+  .snippets {
     width: 70%;
-    margin:0.5em auto;
+    margin: 0.5em auto;
   }
 
-  .snippets p{
-    font-size:1.2rem ;
+  .snippets p {
+    font-size: 1.2rem;
     font-weight: 400;
   }
 
-  .sub-features img{
+  .sub-features img {
     width: 58%;
   }
 
-  .sub-features{
+  .sub-features {
     display: flex;
     margin-left: -9em;
   }
 
-  .sub-features-tab h1{
+  .sub-features-tab h1 {
     margin: 0;
-    text-align:justify;
+    text-align: justify;
     font-size: 1.5rem;
   }
 
-  .sub-features-tab p{
+  .sub-features-tab p {
     margin: 0;
     text-align: justify;
     font-size: 0.95rem;
     font-weight: 400;
   }
 
-  .sub-features-tab div{
+  .sub-features-tab div {
     width: 62%;
     margin: 3em 0 0 4em;
   }
-.access-clipboard{
-  margin-bottom: 0;
-}
+  .access-clipboard {
+    margin-bottom: 0;
+  }
 
-  .access-clipboard h1{
+  .access-clipboard h1 {
     width: 50%;
   }
 
-  .access-clipboard p{
+  .access-clipboard p {
     width: 55%;
     font-size: 1em;
     font-weight: 400;
     margin: auto;
   }
 
-  .access-clipboard img{
+  .access-clipboard img {
     width: 65%;
-  
   }
 
-  .container-supercharge{
+  .container-supercharge {
     margin: 1em auto;
     padding-bottom: 0;
   }
 
-  .sub-supercharge{
+  .sub-supercharge {
     display: flex;
     margin: auto;
   }
 
-  .sub-supercharge div{
-width: 30%;
-margin: 4em  auto;
-}
+  .sub-supercharge div {
+    width: 30%;
+    margin: 4em auto;
+  }
 
-.sub-supercharge img{
-width: 10%;
-margin-bottom: 2.5em;
-}
+  .sub-supercharge img {
+    width: 10%;
+    margin-bottom: 2.5em;
+  }
 
-.sub-supercharge p{
-font-size: 0.95rem;
-font-weight: 400;
-}
+  .sub-supercharge p {
+    font-size: 0.95rem;
+    font-weight: 400;
+  }
 
-.sub-supercharge h1{
-font-size: 1.3rem;
-font-weight: 600;
-}
+  .sub-supercharge h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
 
-.clients{
-  width: 85%;
-  display: flex;
-  margin:  1em auto;
-}
-.clients img{
-  margin: 2em auto;
-  width: 10%;
-  height: 2em;
-}
+  .clients {
+    width: 85%;
+    display: flex;
+    margin: 1em auto;
+  }
+  .clients img {
+    margin: 2em auto;
+    width: 10%;
+    height: 2em;
+  }
 
-.download h1{
-  width: 55%;
-  margin: 0.5em auto;
-}
+  .download h1 {
+    width: 55%;
+    margin: 0.5em auto;
+  }
 
-.download p{
-  width: 55%;
-  margin: 0.5em auto;
-  font-weight: 400;
-  font-size: 1.0rem;
-}
+  .download p {
+    width: 55%;
+    margin: 0.5em auto;
+    font-weight: 400;
+    font-size: 1rem;
+  }
 
-.download-btn-width{
-width:45% ;
-min-width: 386px;
-}
+  .download-btn-width {
+    width: 45%;
+    min-width: 386px;
+  }
 
-.useful-links{
-  display: flex;
-justify-content: space-evenly;
-width: 100%;
-padding-top: 2em;
-}
+  .useful-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 2em;
+  }
 
-.useful-links h2{
-  font-size: 1.0rem;
-  text-align: start;
-  font-weight: 400;
-}
+  .useful-links h2 {
+    font-size: 1rem;
+    text-align: start;
+    font-weight: 400;
+  }
 
-.useful-links img{
-  width: 5%;
- margin: 0;
- height: 4em;
- padding-top: 0;
-}
+  .useful-links img {
+    width: 5%;
+    margin: 0;
+    height: 4em;
+    padding-top: 0;
+  }
 
-.social-icon i{
-  margin-top: 0;
-  padding: 0;
-font-size: 1rem;
-}
+  .social-icon i {
+    margin-top: 0;
+    padding: 0;
+    font-size: 1rem;
+  }
 }
