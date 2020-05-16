@@ -266,12 +266,12 @@ margin: auto;
 
   .sub-supercharge{
     display: flex;
-    
+    margin: auto;
   }
 
   .sub-supercharge div{
 width: 30%;
-margin: 4em 0 auto;
+margin: 4em  auto;
 }
 
 .sub-supercharge img{
