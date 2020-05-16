@@ -1,0 +1,345 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+body h1{
+  font-size: 1.7rem;
+  opacity: 0.7;
+  text-align: center;
+  font-weight: 600;
+  margin: 0.7em auto;
+}
+
+body p{
+  font-size: 0.90rem;
+  opacity: 0.5;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.7em;
+}
+
+header {
+  background-image: url("../images/bg-header-mobile.png");
+  padding-top: 8em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub-header {
+  width: 86%;
+  margin: auto;
+}
+
+header img {
+  display: block;
+  margin: auto;
+  width: 7em;
+}
+
+
+header p {
+  margin-bottom: 4em;
+}
+
+ button {
+  display: block;
+  margin: 1.5em auto;
+  width: 90%;
+  height: 2.5em;
+  border: none;
+  border-radius: 5em;
+  color: white;
+  font-weight: 600;
+}
+
+.cyan {
+  background-color: hsl(171, 66%, 44%);
+}
+
+ .blue {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.main-features{
+    margin: 8em  auto;
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.snippets p{
+  width: 95%;
+  }
+
+.sub-features{
+  margin-top: 4em;
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+.sub-features img{
+  width: 90%;
+}
+
+
+.sub-features-tab div{
+  margin: 2.5em auto;
+  width: 90%;
+}
+
+.access-clipboard{
+  margin: 8em  auto;
+  width: 90%;
+}
+
+.access-clipboard img{
+  display: block;
+  width: 100%;
+  margin: 3em auto;
+}
+
+.container-supercharge{
+  width: 90%;
+  margin: auto;
+}
+
+.sub-supercharge-features{
+  margin: 5em auto;
+}
+
+.sub-supercharge-features img{
+  display: block;
+  width: 15%;
+  margin: auto;
+}
+
+.clients{
+  margin-top: 8em;
+}
+
+.clients img{
+  display: block;
+  margin: 4em auto;
+}
+
+.download{
+  width: 90%;
+  margin: auto;
+}
+
+footer{
+  background-color:rgb(247, 250, 246)
+}
+
+.useful-links{
+  width: 90%;
+  margin: auto;
+
+}
+
+.useful-links img{
+  display: block;
+  margin: 3em auto;
+  width: 18%;
+  padding-top: 3em;
+}
+
+.useful-links h2{
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 2.3em;
+  font-weight: 600;
+  opacity: 0.5;
+}
+.social-icon{
+  margin:0 auto;
+  text-align: center;
+}
+
+.social-icon i{
+  text-align: center;
+  margin: 2em 0.5em; 
+  opacity: 0.5;
+  font-size: 1.8rem;
+}
+/* Media Queries */
+@media only screen and (min-width:768px){
+  header{
+    background-image: url("../images/bg-header-desktop.png");
+  }
+  
+  .sub-header{
+    width: 65%;
+  }
+
+  header h1{
+    font-size: 2.8rem;
+  }
+
+  header p{
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  header p{
+    margin-bottom: 0.5em;
+  }
+
+.main-button-width{
+  min-width: 380px;
+}
+
+  .download-btn{
+   display: flex;
+width: 55%;
+margin: auto;
+  }
+
+  button{
+    width: 45%;
+    height: 3em;
+  }
+
+  .snippets{
+    width: 70%;
+    margin:0.5em auto;
+  }
+
+  .snippets p{
+    font-size:1.2rem ;
+    font-weight: 400;
+  }
+
+  .sub-features img{
+    width: 58%;
+  }
+
+  .sub-features{
+    display: flex;
+    margin-left: -9em;
+  }
+
+  .sub-features-tab h1{
+    margin: 0;
+    text-align:justify;
+    font-size: 1.5rem;
+  }
+
+  .sub-features-tab p{
+    margin: 0;
+    text-align: justify;
+    font-size: 0.95rem;
+    font-weight: 400;
+  }
+
+  .sub-features-tab div{
+    width: 62%;
+    margin: 3em 0 0 4em;
+  }
+.access-clipboard{
+  margin-bottom: 0;
+}
+
+  .access-clipboard h1{
+    width: 50%;
+  }
+
+  .access-clipboard p{
+    width: 55%;
+    font-size: 1em;
+    font-weight: 400;
+    margin: auto;
+  }
+
+  .access-clipboard img{
+    width: 65%;
+  
+  }
+
+  .container-supercharge{
+    margin: 1em auto;
+    padding-bottom: 0;
+  }
+
+  .sub-supercharge{
+    display: flex;
+    
+  }
+
+  .sub-supercharge div{
+width: 30%;
+margin: 4em 0 auto;
+}
+
+.sub-supercharge img{
+width: 10%;
+margin-bottom: 2.5em;
+}
+
+.sub-supercharge p{
+font-size: 0.95rem;
+font-weight: 400;
+}
+
+.sub-supercharge h1{
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+.clients{
+  width: 85%;
+  display: flex;
+  margin:  1em auto;
+}
+.clients img{
+  margin: 2em auto;
+  width: 10%;
+  height: 2em;
+}
+
+.download h1{
+  width: 55%;
+  margin: 0.5em auto;
+}
+
+.download p{
+  width: 55%;
+  margin: 0.5em auto;
+  font-weight: 400;
+  font-size: 1.0rem;
+}
+
+.download-btn-width{
+width:45% ;
+min-width: 386px;
+}
+
+.useful-links{
+  display: flex;
+justify-content: space-evenly;
+width: 100%;
+padding-top: 2em;
+}
+
+.useful-links h2{
+  font-size: 1.0rem;
+  text-align: start;
+  font-weight: 400;
+}
+
+.useful-links img{
+  width: 5%;
+ margin: 0;
+ height: 4em;
+ padding-top: 0;
+}
+
+.social-icon i{
+  margin-top: 0;
+  padding: 0;
+font-size: 1rem;
+}
+}
